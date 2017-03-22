@@ -25,3 +25,7 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = "AlipaySDK/AlipaySDK.framework"
 end
 
+
+
+
+
