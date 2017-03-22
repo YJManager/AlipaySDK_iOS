@@ -2,11 +2,12 @@
 //  APAuthInfo.h
 //  AliSDKDemo
 //
-//  Created by alipay on 16-12-12.
-//  Copyright (c) 2016年 Alipay.com. All rights reserved.
+//  Created by 方彬 on 14-7-18.
+//  Copyright (c) 2014年 Alipay.com. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface APayAuthInfo : NSObject
 
@@ -29,5 +30,4 @@
 
 - (NSString *)description;
 - (NSString *)wapDescription;
-
 @end
