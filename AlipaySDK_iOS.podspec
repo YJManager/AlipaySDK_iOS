@@ -1,4 +1,4 @@
-version = "0.0.2";
+version = "0.0.3";
 
 Pod::Spec.new do |s|
     s.name         = "AlipaySDK_iOS"
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
     s.author       = { "houmanager" => "houmanager@Hotmail.com" }
     s.platform     = :ios, "7.0"
-    s.ios.deployment_target = "7.0"
+    #s.ios.deployment_target = "7.0"
     s.requires_arc = true
     s.frameworks = "SystemConfiguration", "CoreTelephony", "QuartzCore", "CoreText", "CoreGraphics", "UIKit", "Foundation", "CFNetwork", "CoreMotion"
     s.libraries    = "c++", "z"

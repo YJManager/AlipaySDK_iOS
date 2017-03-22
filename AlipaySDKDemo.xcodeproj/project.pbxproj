@@ -13,8 +13,6 @@
 		63C202781E822E2200B51A07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C202761E822E2200B51A07 /* Main.storyboard */; };
 		63C2027A1E822E2200B51A07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C202791E822E2200B51A07 /* Assets.xcassets */; };
 		63C2027D1E822E2200B51A07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C2027B1E822E2200B51A07 /* LaunchScreen.storyboard */; };
-		63C2028D1E823E6D00B51A07 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C2028A1E823E6D00B51A07 /* AlipaySDK.framework */; };
-		63C2028E1E823E6D00B51A07 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 63C2028C1E823E6D00B51A07 /* AlipaySDK.bundle */; };
 		63C202911E823E9600B51A07 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C202901E823E9600B51A07 /* libc++.tbd */; };
 		63C202931E823EA000B51A07 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C202921E823EA000B51A07 /* libz.tbd */; };
 		63C202951E823EAD00B51A07 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C202941E823EAD00B51A07 /* SystemConfiguration.framework */; };
@@ -26,6 +24,8 @@
 		63C202A11E823EED00B51A07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C202A01E823EED00B51A07 /* Foundation.framework */; };
 		63C202A31E823EF400B51A07 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C202A21E823EF400B51A07 /* CFNetwork.framework */; };
 		63C202A51E823F0000B51A07 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C202A41E823F0000B51A07 /* CoreMotion.framework */; };
+		63C202CC1E824F3900B51A07 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 63C202CA1E824F3900B51A07 /* AlipaySDK.bundle */; };
+		63C202CD1E824F3900B51A07 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C202CB1E824F3900B51A07 /* AlipaySDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,8 +39,6 @@
 		63C202791E822E2200B51A07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63C2027C1E822E2200B51A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63C2027E1E822E2200B51A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63C2028A1E823E6D00B51A07 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
-		63C2028C1E823E6D00B51A07 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		63C202901E823E9600B51A07 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		63C202921E823EA000B51A07 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		63C202941E823EAD00B51A07 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -52,6 +50,8 @@
 		63C202A01E823EED00B51A07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		63C202A21E823EF400B51A07 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		63C202A41E823F0000B51A07 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		63C202CA1E824F3900B51A07 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		63C202CB1E824F3900B51A07 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,13 +64,13 @@
 				63C202A11E823EED00B51A07 /* Foundation.framework in Frameworks */,
 				63C2029F1E823EE600B51A07 /* UIKit.framework in Frameworks */,
 				63C2029D1E823EDD00B51A07 /* CoreGraphics.framework in Frameworks */,
+				63C202CD1E824F3900B51A07 /* AlipaySDK.framework in Frameworks */,
 				63C2029B1E823ECA00B51A07 /* CoreText.framework in Frameworks */,
 				63C202991E823EC300B51A07 /* QuartzCore.framework in Frameworks */,
 				63C202971E823EB900B51A07 /* CoreTelephony.framework in Frameworks */,
 				63C202951E823EAD00B51A07 /* SystemConfiguration.framework in Frameworks */,
 				63C202931E823EA000B51A07 /* libz.tbd in Frameworks */,
 				63C202911E823E9600B51A07 /* libc++.tbd in Frameworks */,
-				63C2028D1E823E6D00B51A07 /* AlipaySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,26 +122,10 @@
 		63C202841E823E1A00B51A07 /* AlipaySDK */ = {
 			isa = PBXGroup;
 			children = (
-				63C202891E823E6D00B51A07 /* Framework */,
-				63C2028B1E823E6D00B51A07 /* Resources */,
+				63C202CA1E824F3900B51A07 /* AlipaySDK.bundle */,
+				63C202CB1E824F3900B51A07 /* AlipaySDK.framework */,
 			);
 			path = AlipaySDK;
-			sourceTree = "<group>";
-		};
-		63C202891E823E6D00B51A07 /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-				63C2028A1E823E6D00B51A07 /* AlipaySDK.framework */,
-			);
-			path = Framework;
-			sourceTree = "<group>";
-		};
-		63C2028B1E823E6D00B51A07 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				63C2028C1E823E6D00B51A07 /* AlipaySDK.bundle */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		63C2028F1E823E9600B51A07 /* Frameworks */ = {
@@ -223,7 +207,7 @@
 			files = (
 				63C2027D1E822E2200B51A07 /* LaunchScreen.storyboard in Resources */,
 				63C2027A1E822E2200B51A07 /* Assets.xcassets in Resources */,
-				63C2028E1E823E6D00B51A07 /* AlipaySDK.bundle in Resources */,
+				63C202CC1E824F3900B51A07 /* AlipaySDK.bundle in Resources */,
 				63C202781E822E2200B51A07 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
