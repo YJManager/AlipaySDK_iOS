@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AlipaySDK_iOS"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "A short description of AlipaySDK_iOS."
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    暂无
+                    暂无A short description of AlipaySDK_iOS.A short description of AlipaySDK_iOS.
                    DESC
 
   s.homepage     = "https://github.com/YJManager/AlipaySDK_iOS.git"
@@ -91,7 +91,9 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-    #s.source_files  = "AlipaySDK/AlipaySDK.framework/**/*"
+#s.source_files  = "AlipaySDKIOS/AlipaySDK.framework/**/*"
+    s.source_files  = "AlipaySDKIOS/**"
+
 
   s.exclude_files = "Classes/Exclude"
 
