@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AlipaySDK_iOS"
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   s.summary      = "A short description of AlipaySDK_iOS."
 
   # This description is used to generate tags and improve search results.
@@ -91,8 +91,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-#s.source_files  = "AlipaySDKIOS/AlipaySDK.framework/**/*"
-    s.source_files  = "AlipaySDKIOS/**"
+    s.source_files  = "AlipaySDKIOS/AlipaySDK.framework/**/*"
+    # s.source_files  = "AlipaySDKIOS/**"
 
 
   s.exclude_files = "Classes/Exclude"
