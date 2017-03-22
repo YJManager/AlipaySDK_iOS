@@ -1,4 +1,4 @@
-version = "0.0.1";
+version = "0.1.0";
 
 Pod::Spec.new do |s|
     s.name         = "AlipaySDK_iOS"
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
     s.libraries    = "c++", "z"
     s.source       = { :git => "https://github.com/YJManager/AlipaySDK_iOS.git", :tag => "#{version}", :submodules => true }
     #s.public_header_files = 'YJExtensions/*.{swift}'
-    s.source_files        = "AlipaySDK/Framework/AlipaySDK.framework/**/*"
+#s.source_files        = "AlipaySDK/Framework/AlipaySDK.framework/**/*"
 
     s.resource  = "AlipaySDK/Resources/AlipaySDK.bundle"
     s.vendored_frameworks = "AlipaySDK/Framework/AlipaySDK.framework"
