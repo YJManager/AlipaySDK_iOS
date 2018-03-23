@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.version      = version
     s.summary      = "支付宝官方SDK同步更新"
     s.description  = <<-DESC
-                        支付宝官方SDK同步更新
+                        支付宝官方SDK同步更新, email: houmanager@hotmail.com
                         DESC
     s.homepage     = "https://github.com/stackhou/AlipaySDK_iOS"
     s.license      = { :type => "MIT", :file => "LICENSE" }
